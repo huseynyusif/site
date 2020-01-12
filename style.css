@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  background: url(./concrete_seamless.png);
+  font-size: 18px;
+  line-height: 22px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  /* width: 1250px; */
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.box {
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
+  overflow: hidden;
+  /* position: fixed;
+  z-index: 99; */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.list {
+  float: right;
+}
+.list ul {
+  overflow: hidden;
+}
+
+.list ul li {
+  float: left;
+  margin-right: 30px;
+}
+.list ul li a {
+  text-transform: capitalize;
+}
+
+.logo {
+  background: blue;
+  padding: 20px;
+  /* margin-left: 142px; */
+  display: inline-block;
+}
+
+.logo > a {
+  color: #eee;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.contain {
+  width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-top: 90px;
+}
+
+.leftsection {
+  float: left;
+  display: inline-block;
+  width: 633px;
+  height: 450px;
+  margin-top: 30px;
+  background: white;
+  margin-bottom: 30px;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-left: 20px;
+}
+
+.rightsection {
+  float: right;
+  margin-left: 15px;
+  background: white;
+  margin: 30px;
+  width: 265px;
+  height: 195px;
+}
+
+p {
+  font-size: 100%;
+  font: inherit;
+}
+/* 
+h2,
+h1 {
+  border-bottom: 2px solid #4a4a4a;
+  margin-left: 20px;
+  margin-right: 50px;
+  color: aqua;
+  margin-bottom: 20px;
+  font-weight: 700;
+} */
+
+h1,
+h2 {
+  padding-bottom: 20px;
+  font-size: 26px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+}
+
+.right {
+  margin-left: 20px;
+}
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+}
+
+.footer {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
